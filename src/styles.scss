@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set body font and background color */
+body {
+  font-family: Arial, sans-serif;
+  // background-color: #f0f0f0;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+/* Set link styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
