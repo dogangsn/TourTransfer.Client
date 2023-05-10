@@ -5,7 +5,7 @@ import { MaterialModule } from './material.module';
 import { NgModule } from '@angular/core';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
-import { ButtonModule } from 'primeng/button';
+import { NgprimeModule } from './ngprime.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { ButtonModule } from 'primeng/button';
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    ButtonModule
+    NgprimeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
