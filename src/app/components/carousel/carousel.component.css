@@ -1,0 +1,28 @@
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+
+  #filter{
+    width: 80%;
+    margin: auto;
+  }
+  .region-form {
+    min-width: 150px;
+    max-width: 500px;
+  }
+  
+  .region-full-width {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+  }

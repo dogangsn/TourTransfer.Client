@@ -6,18 +6,29 @@ import { NgModule } from '@angular/core';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NgprimeModule } from './ngprime.module';
+import { CarouselComponent } from './components/carousel/carousel.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatNativeDateModule } from '@angular/material/core';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    CarouselComponent
    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    NgprimeModule
+    NgprimeModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    MatNativeDateModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
