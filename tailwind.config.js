@@ -3,10 +3,12 @@ purge: {
 	enabled: process.env.ENABLE_PURGE === 'yes'
     content: [
       './src/**/*.{html,ts}',
+      "./node_modules/tw-elements/dist/js/**/*.js"
     ]
 }
 
 module.exports = {
+  important: true,
   content: [
     './src/**/*.{html,ts}',
   ],
